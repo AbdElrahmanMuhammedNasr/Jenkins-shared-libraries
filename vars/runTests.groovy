@@ -1,4 +1,4 @@
-def call(String testCommand = 'mvn test') {
+def call(String testCommand = ' defualt value') {
     stage('Run Tests') {
         echo "Running tests using command: 1 ${testCommand}"
         echo "Running tests using command: 2 ${testCommand}"
@@ -9,3 +9,4 @@ def call(String testCommand = 'mvn test') {
 
     }
 }
+
